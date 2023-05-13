@@ -25,12 +25,12 @@ function Links() {
     };
 
     const links = [
-        <Button key="one" variant="outlined" style={outlineStyle} sx={outlineSx}>Visit My Website</Button>,
-        <Button key="two" variant="outlined" style={outlineStyle} sx={outlineSx}>Book Your 1:1 Session</Button>,
-        <Button key="three" variant="outlined" style={outlineStyle} sx={outlineSx}>Order A Tarot Reading</Button>,
-        <Button key="four" variant="outlined" style={outlineStyle} sx={outlineSx}>Online Class Schedule</Button>,
-        <Button key="five" variant="outlined" style={outlineStyle} sx={outlineSx}>Latest YouTube Video</Button>,
-        <Button key="six" variant="outlined" style={outlineStyle} sx={outlineSx}>Most Recent Blog Post</Button>,
+        <Button key="one" variant="outlined" style={outlineStyle} sx={outlineSx} href="https://stellarlifeyoga.com">Visit My Website</Button>,
+        <Button key="two" variant="outlined" style={outlineStyle} sx={outlineSx} href="mailto:stellarlifeyogainfo@gmail.com">Book Your 1:1 Session</Button>,
+        <Button key="three" variant="outlined" style={outlineStyle} sx={outlineSx} href="mailto:stellarlifeyogainfo@gmail.com">Order A Tarot Reading</Button>,
+        <Button key="four" variant="outlined" style={outlineStyle} sx={outlineSx} href="https://stellarlifeyoga.com">Online Class Schedule</Button>,
+        <Button key="five" variant="outlined" style={outlineStyle} sx={outlineSx} href="https://www.youtube.com/watch?v=nfP_29O77w4">Latest YouTube Video</Button>,
+        <Button key="six" variant="outlined" style={outlineStyle} sx={outlineSx} href="https://stellarlifeyoga.com">Latest Blog Post</Button>,
     ];
 
     return (

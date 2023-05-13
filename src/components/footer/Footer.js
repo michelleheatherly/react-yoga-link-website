@@ -19,19 +19,19 @@ function Footer() {
     };
 
     const links = [
-        <IconButton key="footer-1" color="primary" aria-label="visit stellar life yoga website" style={iconStyles}>
+        <IconButton key="footer-1" color="primary" aria-label="visit stellar life yoga website" style={iconStyles} href="https://stellarlifeyoga.com">
             <LanguageIcon />
         </IconButton>,
-        <IconButton key="footer-2" color="primary" aria-label="visit stellar life yoga instagram" style={iconStyles}>
+        <IconButton key="footer-2" color="primary" aria-label="visit stellar life yoga instagram" style={iconStyles} href="https://instagram.com/stellarlifeyoga">
             <InstagramIcon />
         </IconButton>,
-        <IconButton key="footer-3" color="primary" aria-label="visit stellar life yoga facebook" style={iconStyles}>
+        <IconButton key="footer-3" color="primary" aria-label="visit stellar life yoga facebook" style={iconStyles} href="https://www.facebook.com/stellarlifeyoga">
             <FacebookIcon />
         </IconButton>,
-        <IconButton key="footer-4" color="primary" aria-label="visit stellar life yoga youtube" style={iconStyles}>
+        <IconButton key="footer-4" color="primary" aria-label="visit stellar life yoga youtube" style={iconStyles} href="https://www.youtube.com/@stellarlifeyoga">
             <YouTubeIcon />
         </IconButton>,
-        <IconButton key="footer-5" color="primary" aria-label="contact stellar life yoga" style={iconStyles}>
+        <IconButton key="footer-5" color="primary" aria-label="contact stellar life yoga" style={iconStyles} href="mailto:stellarlifeyogainfo@gmail.com">
             <MailOutlineIcon />
         </IconButton>,
     ];

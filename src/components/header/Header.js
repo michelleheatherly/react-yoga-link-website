@@ -14,7 +14,7 @@ function Header() {
         textShadow: '2px 2px #000000'
     };
 
-    const phrase = "align your mind, body, and spirit with the cosmos";
+    const phrase = "align your mind, body, and spirit for a stellar life";
 
     const phraseStyles = {
         color: '#F5FFD8',
